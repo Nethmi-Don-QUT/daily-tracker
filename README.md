@@ -12,13 +12,28 @@ PHP
 
 Follow these steps to get your project up and running.
 
-Clone the repository: git clone https://github.com/Nethmi-Don-QUT/daily-tracker.git
-Install PHP dependencies: composer install
-Install npm dependencies: npm install
-Create a copy of the .env file: cp .env.example .env
-Run migrations: php artisan migrate
-Start the development server: php artisan serve
+<p>Clone the repository: git clone https://github.com/Nethmi-Don-QUT/daily-tracker.git</p>
+<p>Install PHP dependencies: composer install</p>
+<p>Install npm dependencies: npm install</p>
+<p>Create a copy of the .env file: cp .env.example .env</p>
+<p>Remove the Database part in env and add: DB_CONNECTION=sqlite</p>
+<p>Change the mail part in .env file: <br>
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=yor_username
+MAIL_PASSWORD=your_password
+MAIL_ENCRYPTION=null </p>
+<p>Create database.sqlite: touch database/database.sqlite</p>
+<p>Run migrations: php artisan migrate</p>
+<p>Run the Seed function: php artisan migrate:refresh --seed</p>
+<p>Generate an app key: php artisan key:generate</p>
+<p>Start the Development server: npm run dev</p>
+<p>Start the development server: php artisan serve</p>
+
+
 open the link http://localhost:8000 on your web browser.
+<p>Login as a user and navigate to the 'Blog' tab and feel free to edit and add images to the posts</p>
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
