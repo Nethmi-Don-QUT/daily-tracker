@@ -1,3 +1,26 @@
+## DAILY TRACKER
+
+This is a Laravel application to simply track some essential daily stats. A user can create and login to enter information about their day and access their historical data for insight.
+
+### Prerequisites
+npm
+Node.js
+Composer
+PHP
+
+## Getting Started
+
+Follow these steps to get your project up and running.
+
+Clone the repository: git clone https://github.com/your-username/your-repository.git
+Install PHP dependencies: composer install
+Install npm dependencies: npm install
+Create a copy of the .env file: cp .env.example .env
+Run migrations: php artisan migrate
+Start the development server: php artisan serve
+open the link http://localhost:8000 on your web browser.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
