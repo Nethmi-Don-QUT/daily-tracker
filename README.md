@@ -30,6 +30,7 @@ MAIL_PASSWORD=your_password
 MAIL_ENCRYPTION=null </p>
 <p>Create database.sqlite: touch database/database.sqlite</p>
 <p>Run migrations: php artisan migrate</p>
+<p>Create a symbolink link: php artisan storage:link</p>
 <p>Run the Seed function: php artisan migrate:refresh --seed</p>
 <p>Generate an app key: php artisan key:generate</p>
 <p>Start the Development server: npm run dev</p>
