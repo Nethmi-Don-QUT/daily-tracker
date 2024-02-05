@@ -13,6 +13,7 @@ PHP
 Follow these steps to get your project up and running.
 
 <p>Clone the repository: git clone https://github.com/Nethmi-Don-QUT/daily-tracker.git</p>
+<p>install composer if required: sudo apt install composer</p>
 <p>Install PHP dependencies: composer install</p>
 <p>Install npm dependencies: npm install</p>
 <p>Create a copy of the .env file: cp .env.example .env</p>
